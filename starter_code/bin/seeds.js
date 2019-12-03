@@ -1,9 +1,7 @@
 require("dotenv").config();
-
 const mongoose = require("mongoose");
 const Movie = require("../models/Movie"); // Import of the model Recipe from './models/Recipe'
-// const dbName = "ironcinema";
-
+const dbName = "ironcinema";
 
 const movies = [
   {
